@@ -1,0 +1,55 @@
+# Qt 构建文件和缓存
+build/
+*.pro.user
+*.autosave
+*.user
+
+# 编译输出
+*.exe
+*.o
+*.obj
+*.dll
+*.so
+*.a
+*.lib
+
+# CMake 构建文件
+CMakeFiles/
+*.cmake
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.ninja
+.ninja_deps
+.ninja_log
+
+# Qt Creator 相关
+*.user
+*.user.*
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 临时文件
+*.tmp
+*.temp
+
+# 日志文件
+*.log
+
+# IDE 文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 文档
+*.autosave
+
+# Qt 资源文件
+*.qrc.depends
+
+# 调试文件
+*.pdb
+*.idb
